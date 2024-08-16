@@ -1,8 +1,10 @@
 from django.db import models
+from ckeditor.fields import RichTextField
+
 
 class Blog(models.Model):
     title = models.CharField(max_length=255)
-    body = models.TextField()
+    body = RichTextField()
     
     class Meta:
         verbose_name_plural = "Blogs"
