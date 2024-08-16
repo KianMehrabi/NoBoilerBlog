@@ -42,6 +42,18 @@ INSTALLED_APPS = [
     'core',
 ]
 
+CKEDITOR_5_CUSTOM_CSS = 'css/ckeditor5/admin_dark_mode_fix.css'
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+        'height': 1400,
+        'width': 1400,
+        'uiColor': '#9AB8F3',
+        
+    },
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

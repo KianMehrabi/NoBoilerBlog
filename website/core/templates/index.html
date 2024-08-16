@@ -8,7 +8,7 @@
 <body>
     {% for Blog in Blogs %}
         <p>
-            {{Blog.title}}
+            {{Blog.title | safe }}
         </p>
         <p>
             {{Blog.body | safe}}
