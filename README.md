@@ -16,3 +16,7 @@ make a superuser with =>
 
 and finaly run it with =>
 `python3 manage.py runserver`
+
+
+# Contribution
+we highly suggest any **begginers** to Contribution for documentation 
